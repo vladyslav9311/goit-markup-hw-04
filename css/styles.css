@@ -8,7 +8,6 @@
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    
 }
 .container {
     margin-left: auto;
@@ -23,24 +22,21 @@
    display: flex;
    align-items: baseline;
    text-align: center;
-   list-style: none;
-   
-    
+   list-style: none; 
 }
 .header_b {
     border-bottom: 1px solid #ECECEC;
     height: 80px;
 }
+
 .menu_nav {
     color: #000;
     border: 1px;
     display: flex;
     text-align: center;
     align-items: baseline;
-    list-style: none;
-    
+    list-style: none;  
  }
-
 
 .menu_ul {
     box-sizing: border-box;
@@ -48,50 +44,56 @@
     line-height: 16px;
     letter-spacing: 0.02em;
     list-style: none;
-    align-items: baseline;
-    
+    align-items: baseline;  
 }
-a:hover {
-    color: #2196F3
-}
+
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 .menu_adres {
-    display: flex;
+    display: inline-flex;
+    
     margin-left: auto;
     margin-right: 200px;
     line-height: 16px;
     letter-spacing: 0.02em;
 }
+
 .link-menu {
     color: #212121;
 }
+
 #stud {
     margin-left: 93px;
     color: #000;
-    
-
 }
+
 #port {
     padding-left: 50px;
     color: #000;
     
 }
+
 #cont {
     padding-left: 50px;
     color: #000;
     
 }
-#email1 {    
-    left: 1078px;
-    top: 32px;
-    
-   
-}
 
+.email1 {    
+    /* left: 1040px; */
+    /* top: 32px; */
+    padding-right: 10px;
+}
+#email {
+    fill: #757575;
+}
+#email::hoveer::after {
+    fill: #2196F3;
+}
 
 #tel {
     width: 170px;
@@ -99,9 +101,13 @@ ul {
     top: 32px;
     color: #000;
     padding-left: 50px;
-    
     }
-
+#tel:hover {
+    color: #2196F3
+}
+a:hover {
+        color: #2196F3
+    }
 /* ============ЛОГО=========== */
 .logo {
     box-sizing: border-box;
@@ -114,17 +120,28 @@ ul {
     letter-spacing: 0.03em;
 }
 
-/* ==================БАНЕР================= */
+/* ===========БАНЕР================= */
 .banner_all {
     padding-top: 200px;
-    padding-bottom: 200px;
-    background-color: #2F303A;
-    background: url(https://s3-alpha-sig.figma.com/img/1131/4362/dd953143a8a4d9f86ec8d71afc0e8103?Expires=1662336000&Signature=RLcgNc16PcbMrdBZgeR~jV3~k94c3XtWzUrosNfeFLcJ5KmjRa5VJLvJP4RxN5cPjPlwJbEvin4IRSYpKfqxisXrP--gu-QGend6eEi4bQ0qMybENkgbbvOiM7PfEp2cydBijln8x6K2upOq582cgrTGGsYf8zVVdhwvqiNmcxt6CYXOTz9c4OPpB1G-JQ1XB3APym2-ft3yCosA~pE7jBYMoWoJAMzrWB1jzWCyyU4rxhRqplw-2YuGjI2w3CuhspSQCfV58Xxh05noeUCPPOVy22ZYddGhECZUS5RShqh9L4ZzeLW1tkZHyNkHqwUiBViG-nHiO6otKdnRNxEEcA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA)
-    no-repeat;
-    top: 80px;
-    background-size: cover;
+    padding-bottom: 90px;
+    /* background-color: #2F303A; */
+    /* background-size: cover; */
     overflow: hidden;
     height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    
+}
+
+.img_banner {
+    width: 1600px;
+    /* height: 600px; */
+    background-image: url(../images/Imgb.png);
+    background-repeat: no-repeat;
+    padding-right: 150px;
+    margin-top: 30px;
+
 }
 
 .title1 {
@@ -138,9 +155,9 @@ ul {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;  
 }
+
 #button_baner {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -151,8 +168,8 @@ ul {
     margin-right: auto;
     width: 200px;
     height: 50px;
-    
 }
+
     .textbutn{
     width: 180px;
     font-weight: 700;
@@ -161,63 +178,49 @@ ul {
     display: inline;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+}
+
+
+/* ================ПЕРЕВАГИ================= */
+
+/* КАРТИНКИ */
+
+
+
+.perevagy_all {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+}
+
+.perevagy_spysok {
+display: flex;
+width: 270px;
+height: 120px;
+background: #F5F4FA;
+border-radius: 4px;
+margin-top: 94px;
+justify-content: center;
+align-items: center;
+ 
+}
+.perevagy_svg {
+    width: 65px;
+    height: 70px;
+    align-self: center;
+}
+
+.svgbox_img {
+  
+    /* background-image: url(file:///C:/Users/shevc/Desktop/%D0%97%D0%B0%D0%BD%D1%8F%D1%82%D1%82%D1%8F/%D1%87%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%B8%D0%BA/goit-markup-hw-04/images/tarelka.svg);
+    background-repeat: no-repeat; */
+    /* background-size: 65px 70px; */
     
 }
 
 
-/* =======================ПЕРЕВАГИ==================== */
 
-/* КАРТИНКИ */
-.svgbox_all {
-display: block;
-display: flex;
-justify-content: center;
-margin-left: 215px;
-margin-right: 215px;
-align-items: center;
-}
-.svgbox1 {
-
-width: 270px;
-height: 120px;
-background: #F5F4FA;
-border-radius: 4px;
-margin-top: 94px;
-
-}
-.svgbox2 {
-display: block;
-width: 270px;
-height: 120px;
-background: #F5F4FA;
-border-radius: 4px;
-margin-top: 94px;
-margin-left: 30px;
-}
-.svgbox_img {
-    background-image: url(https://raw.githubusercontent.com/vladyslav9311/goit-markup-hw-04/d196fe10ddf029172fdf740799882c9f05397e0a/images/tarelka.svg);
-    background-repeat: no-repeat;
-    background-size: 65px 70px;
-    background-position: center;
-}
-.svgbox_img2 {
-    background-image: url(https://raw.githubusercontent.com/vladyslav9311/goit-markup-hw-04/d196fe10ddf029172fdf740799882c9f05397e0a/images/clock.svg);
-    background-repeat: no-repeat;
-    background-size: 65px 70px;
-    background-position: center;
-}
-.svgbox_img3 {
-    background-image: url(https://raw.githubusercontent.com/vladyslav9311/goit-markup-hw-04/d196fe10ddf029172fdf740799882c9f05397e0a/images/diagram.svg);
-    background-repeat: no-repeat;
-    background-size: 65px 70px;
-    background-position: center;
-}
-.svgbox_img4 {
-    background-image: url(https://raw.githubusercontent.com/vladyslav9311/goit-markup-hw-04/4de5f47732514e20316eccccf073b7bee05b0454/images/astronaut.svg);
-    background-repeat: no-repeat;
-    background-size: 65px 70px;
-    background-position: center;
-}
 /* ЩО РОБИМО */
 
 .text_box_all {
@@ -228,6 +231,7 @@ margin-left: 30px;
     margin-top: 30px;
     justify-content: center;
 }
+
 .perevagy_title{
     font-weight: 700;
     line-height: 16px;
@@ -235,11 +239,13 @@ margin-left: 30px;
     text-transform: uppercase;
     color: #212121;
 }
+
 .text_box {
     margin-left: 30px;
     font-weight: 400;
     line-height: 24px;
     }
+
 .text_perevagy {
     letter-spacing: 0.03em;
     width: 270px;
@@ -248,10 +254,9 @@ margin-left: 30px;
     line-height: 24px;
     color: #757575;
     }
-/* КАРТИНКИ */
-
 
 /* ЗАГОЛОВОК */
+
 #wwd_h2 {
     margin-left: auto;
     margin-right: auto;
@@ -322,7 +327,6 @@ margin-left: 30px;
     display: block;
     box-sizing: border-box;
     border: 0px;
-    
     width: 270px;
     background-color: #ffff;
     text-align: center;
@@ -333,7 +337,6 @@ margin-left: 30px;
     margin-left: 30px;
     box-sizing: border-box;
     border: 0px;
-    
     width: 270px;
     background-color: #ffff;
     text-align: center;
@@ -343,21 +346,21 @@ margin-left: 30px;
     margin-left: 30px;
     box-sizing: border-box;
     border: 0px;
-    
     width: 270px;
     background-color: #ffff;
     text-align: center;
 }
+
 #card4 {
     display: block;
     margin-left: 30px;
     box-sizing: border-box;
     border: 0px;
-     
     width: 270px;
     background-color: #ffff;
     text-align: center;
 }
+
 .card-title {
    font-size: 16px;
    line-height: 19px;
@@ -366,8 +369,8 @@ margin-left: 30px;
    color: #212121;
    margin-bottom: 10px;
 }
+
 .card_text {
-   
    font-weight: 400;
    font-size: 16px;
    line-height: 19px;
@@ -375,7 +378,6 @@ margin-left: 30px;
    letter-spacing: 0.03em;
    color: #757575;
    padding-bottom: 30px;
-
 }
 
 /* ==================ТІНЬ КАРТОЧОК===================== */
@@ -384,63 +386,42 @@ margin-left: 30px;
 border-radius: 0px 0px 4px 4px
 }
 /* =======================ПОСИЛАННЯ=============== */
-.icons1 {
-    display: flex;
-    list-style: none;
-    margin-left: 34px;
-    padding-bottom: 40px;
-} 
-.iconkard {
-  display: block;
-  width: 40px;
-  height: 40px; 
-  background-color: transparent;
-  border: 1px;
-  border-radius: 50%;
+
+
+.social_icons_list_test {
+display: flex;
+justify-content: center;
+gap: 10px;
+padding-bottom: 40px;
+}
+
+.social_icons_test {
+width: 44px;
+height: 44px;
+
+}
+.social_icons_link_test {
+width: 100%;
+height: 100%;
+background-color: transparent;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.bi-instagram {
+fill: #AFB1B8;
+    
+}
   
-
-}
-.iconkard2 {
-    display: block;
-  width: 40px;
-  height: 40px; 
-  background-color: transparent;
-  border: 1px;
-  border-radius: 50%;
-  margin-left: 10px;
-
-}
-
-.icons2 .cards:hover {
+.social_icons_link_test:hover {
     background-color: #2196F3;
-  }
-.iconcard3 {
-    background-image: url(file:///C:/Users/shevc/Downloads/%D0%97%D0%B0%D0%BD%D1%8F%D1%82%D1%82%D1%8F/%D1%87%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%B8%D0%BA/goit-markup-hw-04/images/instagram.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    
 }
-.iconcard4 {
-    background-image: url(file:///C:/Users/shevc/Downloads/%D0%97%D0%B0%D0%BD%D1%8F%D1%82%D1%82%D1%8F/%D1%87%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%B8%D0%BA/goit-markup-hw-04/images/twitter.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    
+.social_icons_link_test:hover .bi-instagram {
+    fill: #ececec;
 }
-.iconcard5 {
-    background-image: url(file:///C:/Users/shevc/Downloads/%D0%97%D0%B0%D0%BD%D1%8F%D1%82%D1%82%D1%8F/%D1%87%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%B8%D0%BA/goit-markup-hw-04/images/fcebook.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    
-}
-.iconcard6 {
-    background-image: url(file:///C:/Users/shevc/Downloads/%D0%97%D0%B0%D0%BD%D1%8F%D1%82%D1%82%D1%8F/%D1%87%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%B8%D0%BA/goit-markup-hw-04/images/linkedin.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    
-}
-
-/* ====================КЛИЕНТЫ===================== */
+/* ====================КЛІЄНТИ===================== */
 .title_clients {
     text-align: center;
     font-weight: 700;
@@ -448,6 +429,40 @@ border-radius: 0px 0px 4px 4px
     line-height: 42px;
     color: #212121;
     letter-spacing: 0.03em;
+    
+}
+
+.clients_co { 
+display: flex;
+padding-top: 50px;
+gap: 30px;
+margin-bottom: 94px;
+justify-content: center;
+}
+
+.clients_logo {
+    box-sizing: border-box;
+    width: 170px;
+    height: 92px;
+    left: 815px;
+    top: 2493px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    justify-content: center;
+align-items: center;
+display: flex;
+}
+.logo_svg {
+    fill: #AFB1B8;
+}
+/* .clients_svg_link :hover {
+fill: #2196F3;
+}  */
+.clients_logo:hover{
+    border-color: #2196F3;
+}
+.clients_logo:hover .logo_svg {
+    fill: #2196F3;
 }
 /* ====================ФУТЕР===================== */
 .footer {
@@ -455,15 +470,17 @@ border-radius: 0px 0px 4px 4px
     border: 0px;
     height: 252px;
     background-color: #2F303A;
+    display: flex;
 }
+
 .adres {
     margin-left: 215px;
-    font-weight: 400;
+    font-weight : 400;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-
 }
+
 .footerbox_txt {
     margin-left: 215px;
     font-weight: 400;
@@ -472,19 +489,82 @@ border-radius: 0px 0px 4px 4px
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 30px;
 }
+
 .footer_div {
     padding-top: 30px;
 }
+.footer_social {
+    margin-left: 70px;
+    padding-top: 72px;
+    width: 206px;
+    height: 80px;
+}
+.footer_link_text {
+    font-weight: 700;
+    font-style: Bold;
+    Font-size: 14px;
+    Line-height: 16px;
+    Line-height: 100%;
+    Vertical-align: Top;
+    Letter-spacing: 3%;
+    color: #FFFFFF;
+}
+.footer_links {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+.col {
+    fill: #000;
+}
+/* ===========ФУТЕР ІКОНКИ============== */
 
+.social_icons_list_footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+    }
+    
+    .social_icons_footer {
+    width: 44px;
+    height: 44px;
+    }
 
+    .social_icons_link_footer {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .footer-icons {
+        fill: #ECECEC;
+        width: 20px;
+        height: 20px;
+    }
+    #flink {
+        width: 10px;
+        height: 10px;
+    }
+    .social_icons_link_footer:hover {
+        background-color: #2196F3;
+    }
+    .social_icons_link_test:hover .bi-instagram {
+            fill: #ececec;
+     }
 
 /* ===============ПОРТФОЛІО=============== */
+
+
 
 /* ========================МЕНЮ===================== */
 .menu-filtr {
     display: flex;
     justify-content: center;
-    
 }
 
   
@@ -501,7 +581,6 @@ border-radius: 0px 0px 4px 4px
     font-size: 16px;
     line-height: 26px;
     border-color: transparent;
-    
 
 }
 .menu-filtr li:nth-child(n+1) {
@@ -540,6 +619,7 @@ border-radius: 0px 0px 4px 4px
     /* border: 1px solid #EEEEEE; */
     padding: 20px 24px;
 }
+
 .cardport-title {
     font-weight: 700;
     font-size: 18px;
@@ -550,6 +630,7 @@ border-radius: 0px 0px 4px 4px
     margin: 0;
     padding: 0;
 }
+
 .cardport-text {
     font-style: normal;
     font-weight: 400;
@@ -560,12 +641,14 @@ border-radius: 0px 0px 4px 4px
     margin: 0;
     padding: 0;
 }
+
 .ca {
 padding: 20px 20px;
 border-left: 1px solid #EEEEEE;
 border-right: 1px solid #EEEEEE;
 border-bottom: 1px solid #EEEEEE;
 }
+
 /* Img */
 
 /* =========СПРАЙТ========= */
@@ -576,3 +659,16 @@ border-bottom: 1px solid #EEEEEE;
     height: 50px;
     margin-left: 215px;
 }
+
+
+.iconinsta {
+    background-color: none;
+    display: block;
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+}
+.iconinsta:hover {
+    fill: #2196F3;
+}
+
