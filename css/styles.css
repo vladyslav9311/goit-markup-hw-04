@@ -91,14 +91,14 @@ ul {
 #email {
     fill: #757575;
 }
-#email::hoveer::after {
+#email::hover::after {
     fill: #2196F3;
 }
 
 #tel {
     width: 170px;
     left: 1263px;
-    top: 32px;
+    top: 20px;
     color: #000;
     padding-left: 50px;
     }
@@ -106,7 +106,7 @@ ul {
     color: #2196F3
 }
 a:hover {
-        color: #2196F3
+     color: #2196F3
     }
 /* ============ЛОГО=========== */
 .logo {
@@ -191,7 +191,7 @@ a:hover {
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 15px;
+gap: 30px;
 }
 
 .perevagy_spysok {
